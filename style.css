@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Verdana', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url('images/backpic.jpg') no-repeat center center/ cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;;
+}
+.main-text {
+  background-color: rgba(245, 245, 245, 0.5);
+  width: 25vw;
+  height: 40vh;
+  padding: 3vh 2vw;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items:stretch;
+}
+
+.heading {
+  font-size: 0.9rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px 14px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 2vh 2vw;
+}
+
+.quote {
+  height: 58%;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+.quote > p {
+  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.author {
+  text-align: center;
+  letter-spacing: 3px;
+  height: 20%;
+  width: auto;
+
+}
+.author>p {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1rem;
+  color: brown;
+}
+
+#new-quote {
+  align-self: center;
+  padding: 0px auto;
+  height: 20%;
+  width: auto;
+  background-color:rgb(41, 129, 246);
+  padding: 1vh 1vw;
+  border: none;
+  border-radius: 2px;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: bold;
+}
